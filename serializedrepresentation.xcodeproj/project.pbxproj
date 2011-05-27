@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7863893A138FC9F10014C84D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78638939138FC9F10014C84D /* Foundation.framework */; };
 		7863893D138FC9F10014C84D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7863893C138FC9F10014C84D /* main.m */; };
+		78638947138FCD230014C84D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78638946138FCD230014C84D /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		78638939138FC9F10014C84D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7863893C138FC9F10014C84D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7863893F138FC9F10014C84D /* serializedrepresentation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "serializedrepresentation-Prefix.pch"; sourceTree = "<group>"; };
-		78638940138FC9F10014C84D /* serializedrepresentation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = serializedrepresentation.1; sourceTree = "<group>"; };
+		78638946138FCD230014C84D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7863893A138FC9F10014C84D /* Foundation.framework in Frameworks */,
+				78638947138FCD230014C84D /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +63,7 @@
 		78638938138FC9F10014C84D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78638946138FCD230014C84D /* AppKit.framework */,
 				78638939138FC9F10014C84D /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -72,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				7863893C138FC9F10014C84D /* main.m */,
-				78638940138FC9F10014C84D /* serializedrepresentation.1 */,
 				7863893E138FC9F10014C84D /* Supporting Files */,
 			);
 			path = serializedrepresentation;
@@ -220,6 +220,7 @@
 				78638945138FC9F10014C84D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
